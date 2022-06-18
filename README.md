@@ -17,9 +17,9 @@ The cost function is minimised by finding suitable values of
 $\theta_{0}$ and $\theta_{1}$.
 The iteration rule:
 
-$\theta_{0}=\theta_{0}-\alpha\sum(\theta_{0}+\theta_{1}x^{(i)}-y)$ 
+$\theta_{0}=\theta_{0}-\alpha\frac{1}{m}\sum(\theta_{0}+\theta_{1}x^{(i)}-y)$ 
 
-$\theta_{1}=\theta_{1}-\alpha\sum(\theta_{0}+\theta_{1}x^{(i)}-y)x^{(i)}$ 
+$\theta_{1}=\theta_{1}-\alpha\frac{1}{m}\sum(\theta_{0}+\theta_{1}x^{(i)}-y)x^{(i)}$ 
 
 Result: 
 
